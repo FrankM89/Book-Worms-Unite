@@ -1,5 +1,5 @@
-import { gql } from "@apollo/client";
-import axios from "axios";
+import { gql } from '@apollo/client';
+import axios from 'axios';
 
 export const QUERY_ME = gql`
   query OneUser($id: ID!, $username: String!) {
@@ -19,4 +19,4 @@ export const QUERY_ME = gql`
 
 export const searchGoogleBooks = (query) => {
   return axios(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
-};
+}
