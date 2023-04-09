@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "apollo-server-express": "^2.15.0",
+    "bcrypt": "^5.1.0",
     "cors": "^2.8.5"
   },
   "engines": {
